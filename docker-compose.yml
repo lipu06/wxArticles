@@ -6,13 +6,15 @@ services:
     command: --mysql-native-password=ON
     environment:
       # 请修改为自己的密码
-      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_ROOT_PASSWORD: h0meL1nk
+      # 时区
       TZ: 'Asia/Shanghai'
       MYSQL_DATABASE: 'wewe-rss'
     # ports:
     #   - 13306:3306
     volumes:
       - db_data:/var/lib/mysql
+    # 健康检查
     healthcheck:
       test: ['CMD', 'mysqladmin', 'ping', '-h', 'localhost']
       timeout: 45s
@@ -30,7 +32,7 @@ services:
       # 数据库连接地址
       - DATABASE_URL=mysql://root:123456@db:3306/wewe-rss?schema=public&connect_timeout=30&pool_timeout=30&socket_timeout=30
       # 服务接口请求授权码
-      - AUTH_CODE=123567
+      - AUTH_CODE=h0meL1nk
       # 提取全文内容模式
       # - FEED_MODE=fulltext
       # 定时更新订阅源Cron表达式
