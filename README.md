@@ -175,27 +175,6 @@ pnpm run start:server
 
 为了确保本项目的持久运行，某些接口请求将通过`weread.111965.xyz`进行转发。请放心，该转发服务不会保存任何数据。
 
-## ❤️ 赞助
-
-如果觉得 wewe-rss 项目对老板你有帮助，可以给我来一杯啤酒！
-
-### PayPal
-
-<a href="https://paypal.me/cooderl"> paypal.me/cooderl </a>
-
-### 微信
-
-<img style="width:300px;height:300px" src="https://r2-assets.111965.xyz/donate-wechat.jpg" alt="Donate_WeChat.jpg">
-
-
-## 贡献者
-
-<a href="https://github.com/cooderl/wewe-rss/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=cooderl/wewe-rss" />
-</a>
-
-
-
 ## License
 
 [MIT](https://raw.githubusercontent.com/cooderl/wewe-rss/main/LICENSE) @cooderl
